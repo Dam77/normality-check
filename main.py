@@ -42,3 +42,6 @@ Le **test de Shapiro-Wilk** vérifie si les données suivent une distribution no
 """)
         results = check_normality(df[column].dropna(), alpha)
         st.write(f"Résultats pour la colonne '{column}':", results)
+
+    
+st.write("Projet réalisé avec Python. Pour avoir le code source, [cliquez ici](https://github.com/dam77/normality-check).")
